@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1217080-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2017-06-05 12:23:47
+Downloaded=2023-07-16 14:15:54
+3D=Y

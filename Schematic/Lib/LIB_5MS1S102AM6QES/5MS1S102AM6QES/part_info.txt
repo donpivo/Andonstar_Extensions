@@ -1,0 +1,9 @@
+Manufacturer=Dailywell
+PartNumber=5MS1S102AM6QES
+PartCategory=Switch
+PackageCategory=Other
+PinCount=5
+Version=1.5
+Released=2020-12-13 19:22:00
+Downloaded=2023-07-20 06:00:26
+3D=N

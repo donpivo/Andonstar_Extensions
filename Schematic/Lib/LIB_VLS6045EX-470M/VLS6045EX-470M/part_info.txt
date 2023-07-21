@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=VLS6045EX-470M
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=3.2
+Released=2021-06-22 16:47:06
+Downloaded=2023-07-16 10:58:20
+3D=Y

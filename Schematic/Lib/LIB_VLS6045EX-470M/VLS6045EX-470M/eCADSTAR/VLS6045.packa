@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VLS6045EX-470M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-04-09-14:23:09)
+    (mountForm default
+        (footprintRef "VLS6045")
+        (spec "System")
+    )
+)

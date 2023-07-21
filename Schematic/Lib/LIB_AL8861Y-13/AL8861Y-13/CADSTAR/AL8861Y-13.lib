@@ -1,0 +1,16 @@
+.AL8861Y-13 :1 ;LED Lighting Drivers LED MV Int Switch
+SOT89-5
+*STM IC
+*NGS
+*PLB 1="LX" 2="GND" 3="VSET" 4="ISENSE" 5="VIN"
+*MXP 6
+*DFN AL8861Y-13
+~!Mouser Part Number (621-AL8861Y-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8861Y-13?qs=5666Nh5RPmZ5OdrCTpVMTQ%3D%3D)
+~!Manufacturer_Name (Diodes Inc.)
+~!Manufacturer_Part_Number (AL8861Y-13)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AL8861.pdf)
+~!Height (-)
+~!3D_Model (AL8861Y-13)
+AL8861Y-13
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'GW_JELMS1.EM_H2H6_XX55_1_65_R33'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "OSRAM", "GW JELMS1.EM-H2H6-XX55-1-65-R33" (!) = "", "GWJELMS1EMH2H6XX55165R33", "Other", "720-GWJELMS1EMA9083", "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/GW-JELMS1EM-H2H6-XX55-1-65-R33?qs=xZ%2FP%252Ba9zWqYPoY4ZBPOobw%3D%3D", "Standard LEDs - SMD White DURIS E 4014", "", "0.65 mm"
+END_PART
+
+END.

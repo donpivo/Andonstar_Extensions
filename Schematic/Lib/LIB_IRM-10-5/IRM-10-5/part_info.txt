@@ -1,0 +1,9 @@
+Manufacturer=Mean Well
+PartNumber=IRM-10-5
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2017-06-07 09:38:52
+Downloaded=2023-07-20 06:43:24
+3D=Y

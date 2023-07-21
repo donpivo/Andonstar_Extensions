@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "VLS6045"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "VLS6045")
+        (spec "default")
+    )
+)

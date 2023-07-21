@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VLS6045EX_470M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TDK", "VLS6045EX-470M" (!) = "", "VLS6045", "Other", "810-VLS6045EX-470M", "https://www.mouser.co.uk/ProductDetail/TDK/VLS6045EX-470M?qs=oF%2FSscNnLpBaU7vKc7Ahqw%3D%3D", "SMD / SMT Inductors (Coils), L=47?H, L x W x T :", "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf"
+END_PART
+
+END.

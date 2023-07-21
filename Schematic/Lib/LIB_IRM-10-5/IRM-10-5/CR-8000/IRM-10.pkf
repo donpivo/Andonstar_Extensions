@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IRM-10"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IRM-10")
+        (spec "default")
+    )
+)

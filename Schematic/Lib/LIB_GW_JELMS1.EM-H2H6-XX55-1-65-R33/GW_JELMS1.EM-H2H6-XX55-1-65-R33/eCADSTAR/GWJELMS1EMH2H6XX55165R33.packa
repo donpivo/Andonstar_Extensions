@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GW_JELMS1_EM-H2H6-XX55-1-65-R3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-02-21:43:22)
+    (mountForm default
+        (footprintRef "GWJELMS1EMH2H6XX55165R33")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRM-10-5
+D AC/DC Power Modules 5V 2A 10W 85-264Vin Encap PS
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-14/277831.pdf
+$ENDCMP
+#
+#End Doc Library

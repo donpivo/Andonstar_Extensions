@@ -1,0 +1,83 @@
+SamacSys ECAD Model
+191656/15771/2.50/2/4/Connector
+
+DESIGNSPARK_INTERMEDIATE_ASCII
+
+(asciiHeader
+	(fileUnits MM)
+)
+(library Library_1
+	(padStyleDef "c220_h145"
+		(holeDiam 1.45)
+		(padShape (layerNumRef 1) (padShapeType Ellipse)  (shapeWidth 2.2) (shapeHeight 2.2))
+		(padShape (layerNumRef 16) (padShapeType Ellipse)  (shapeWidth 2.2) (shapeHeight 2.2))
+	)
+	(textStyleDef "Default"
+		(font
+			(fontType Stroke)
+			(fontFace "Helvetica")
+			(fontHeight 50 mils)
+			(strokeWidth 5 mils)
+		)
+	)
+	(patternDef "1217080-1" (originalName "1217080-1")
+		(multiLayer
+			(pad (padNum 1) (padStyleRef c220_h145) (pt -2.54, 0) (rotation 90))
+			(pad (padNum 2) (padStyleRef c220_h145) (pt 2.54, 0) (rotation 90))
+		)
+		(layerContents (layerNumRef 18)
+			(attr "RefDes" "RefDes" (pt -0.36024, 0.09306) (textStyleRef "Default") (isVisible True))
+		)
+		(layerContents (layerNumRef 28)
+			(line (pt -3.71 1) (pt 3.71 1) (width 0.2))
+		)
+		(layerContents (layerNumRef 28)
+			(line (pt 3.71 1) (pt 3.71 -1) (width 0.2))
+		)
+		(layerContents (layerNumRef 28)
+			(line (pt 3.71 -1) (pt -3.71 -1) (width 0.2))
+		)
+		(layerContents (layerNumRef 28)
+			(line (pt -3.71 -1) (pt -3.71 1) (width 0.2))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt -1.2 1) (pt 1.2 1) (width 0.2))
+		)
+		(layerContents (layerNumRef 18)
+			(line (pt -1.2 -1) (pt 1.2 -1) (width 0.2))
+		)
+	)
+	(symbolDef "1217080-1" (originalName "1217080-1")
+
+		(pin (pinNum 1) (pt 0 mils 0 mils) (rotation 0) (pinLength 200 mils) (pinDisplay (dispPinName true)) (pinName (text (pt 230 mils -25 mils) (rotation 0]) (justify "Left") (textStyleRef "Default"))
+		))
+		(pin (pinNum 2) (pt 0 mils -100 mils) (rotation 0) (pinLength 200 mils) (pinDisplay (dispPinName true)) (pinName (text (pt 230 mils -125 mils) (rotation 0]) (justify "Left") (textStyleRef "Default"))
+		))
+		(line (pt 200 mils 100 mils) (pt 600 mils 100 mils) (width 6 mils))
+		(line (pt 600 mils 100 mils) (pt 600 mils -200 mils) (width 6 mils))
+		(line (pt 600 mils -200 mils) (pt 200 mils -200 mils) (width 6 mils))
+		(line (pt 200 mils -200 mils) (pt 200 mils 100 mils) (width 6 mils))
+		(attr "RefDes" "RefDes" (pt 650 mils 300 mils) (justify Left) (isVisible True) (textStyleRef "Default"))
+
+	)
+	(compDef "1217080-1" (originalName "1217080-1") (compHeader (numPins 2) (numParts 1) (refDesPrefix J)
+		)
+		(compPin "1" (pinName "1") (partNum 1) (symPinNum 1) (gateEq 0) (pinEq 0) (pinType Bidirectional))
+		(compPin "2" (pinName "2") (partNum 1) (symPinNum 2) (gateEq 0) (pinEq 0) (pinType Bidirectional))
+		(attachedSymbol (partNum 1) (altType Normal) (symbolName "1217080-1"))
+		(attachedPattern (patternNum 1) (patternName "1217080-1")
+			(numPads 2)
+			(padPinMap
+				(padNum 1) (compPinRef "1")
+				(padNum 2) (compPinRef "2")
+			)
+		)
+		(attr "Mouser Part Number" "571-12170801")
+		(attr "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1217080-1?qs=yW2XQG1Ii9FDkxQ9q3B8LA%3D%3D")
+		(attr "Manufacturer_Name" "TE Connectivity")
+		(attr "Manufacturer_Part_Number" "1217080-1")
+		(attr "Description" "Receptacle terminal, PCB, FASTON 205/250 TE Connectivity FASTON .205/.250 PCB Terminal, Female, Crimp, Tin Plating")
+		(attr "Datasheet Link" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217080&DocType=Customer+Drawing&DocLang=English")
+	)
+
+)

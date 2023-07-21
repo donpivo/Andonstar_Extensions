@@ -1,0 +1,5 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2, D3, D4, D5, D6, D7, D8, D9",GWJELMS1EMH2H6XX55165R33,9,LED,
+J1,TestPoint_Pad_D2.0mm,1,GND,
+J2,TestPoint_Pad_D2.0mm,1,LED+,
+"R1, R2, R3, R4, R5, R6, R7, R8, R9",0805,9,4.7Ω,

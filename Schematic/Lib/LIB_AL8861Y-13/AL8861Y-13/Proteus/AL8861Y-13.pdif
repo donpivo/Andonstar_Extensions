@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AL8861Y-13"
+   (description "LED Lighting Drivers LED MV Int Switch")
+   (family "ANA")
+   (package "SOT89-5")
+   (attribute "Datasheet Link" "https://www.diodes.com/assets/Datasheets/AL8861.pdf")
+   (attribute "Mouser Part Number" "621-AL8861Y-13")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8861Y-13?qs=5666Nh5RPmZ5OdrCTpVMTQ%3D%3D")
+   (attribute "Manufacturer_Name" "Diodes Inc.")
+   (attribute "Manufacturer_Part_Number" "AL8861Y-13")
+   (gate
+    (symbol "AL8861Y-13")
+    (pin "LX" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "VSET" 3 PS)
+    (pin "ISENSE" 4 PS)
+    (pin "VIN" 5 PS)
+   )
+  )
+  (symbol "AL8861Y-13"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT89-5"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.25 1.25)
+      (pt 2.25 1.25)
+      (pt 2.25 -1.25)
+      (pt -2.25 -1.25)
+      (pt -2.25 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.25 -1.25)
+      (pt -2.25 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.25 1.25)
+      (pt 2.25 -1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -1.549 -2.628) (pt -1.515 -2.628)
+     )
+    )
+   )
+   (leg 1 (pt -1.5 -1.65) (padstack 0))
+   (leg 2 (pt 0 -1.65) (padstack 0))
+   (leg 3 (pt 1.5 -1.65) (padstack 0))
+   (leg 4 (pt 1.5 1.65) (padstack 0))
+   (leg 5 (pt -1.5 1.65) (padstack 0))
+   (leg 6 (pt 0 0.475) (padstack 6))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.68 1.2 0 0 90))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 1.93 3.05 0 0 90))
+   )
+   (model "AL8861Y-13.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

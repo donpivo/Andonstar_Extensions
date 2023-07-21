@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/720644/15771/2.50/5/4/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r120_68" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="26.771653543307" height="47.244094488188" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="34.645669291338" height="55.11811023622" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="26.771653543307" height="47.244094488188" />
+  </padstyle>
+  <padstyle name="r305_193" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="75.984251968503" height="120.07874015748" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="83.858267716534" height="127.95275590551" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="75.984251968503" height="120.07874015748" />
+  </padstyle>
+  <footprint name="SOT89-5" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r120_68" originx="-59.055118110235" originy="-64.960629921259" rotation="0" />
+    <pcbpin number="2" name="2" style="r120_68" originx="0" originy="-64.960629921259" rotation="0" />
+    <pcbpin number="3" name="3" style="r120_68" originx="59.055118110235" originy="-64.960629921259" rotation="0" />
+    <pcbpin number="4" name="4" style="r120_68" originx="59.055118110235" originy="64.960629921259" rotation="0" />
+    <pcbpin number="5" name="5" style="r120_68" originx="-59.055118110235" originy="64.960629921259" rotation="0" />
+    <pcbpin number="6" name="6" style="r305_193" originx="0" originy="18.700787401575" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-88.582677165353" originy="49.212598425196" endx="88.582677165353" endy="49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="88.582677165353" originy="49.212598425196" endx="88.582677165353" endy="-49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="88.582677165353" originy="-49.212598425196" endx="-88.582677165353" endy="-49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-88.582677165353" originy="-49.212598425196" endx="-88.582677165353" endy="49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-88.582677165353" originy="-49.212598425196" endx="-88.582677165353" endy="49.212598425196" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="88.582677165353" originy="49.212598425196" endx="88.582677165353" endy="-49.212598425196" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-60.314960629921" originy="-103.46456692913" startangle="180" sweepangle="180" radius="0.66929133858267" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-60.314960629921" originy="-103.46456692913" startangle="180" sweepangle="-180" radius="0.66929133858267" width="7.8740157480314" />
+  </footprint>
+  <symbol name="AL8861Y-13" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-300" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="LX" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="VSET" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="1000" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="ISENSE" />
+      <text name="pindes" originx="1060" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="1000" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="VIN" />
+      <text name="pindes" originx="1060" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="5" />
+    </sympin>
+  </symbol>
+  <component name="AL8861Y-13" designatorprefix="IC" height="0" footprint="SOT89-5">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="LX" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VSET" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="ISENSE" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VIN" />
+    <attached_symbol gate="1" name="AL8861Y-13" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.diodes.com/assets/Datasheets/AL8861.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="LED Lighting Drivers LED MV Int Switch" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="621-AL8861Y-13" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AL8861Y-13?qs=5666Nh5RPmZ5OdrCTpVMTQ%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Diodes Inc." />
+    <text name="Manufacturer_Part_Number" originx="1050" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="AL8861Y-13" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,16 @@
+.5MS1S102AM6QES :1 ;Slide Switches ON-ON SPDT Right
+"5MS1S102AM6QES"
+*STM S
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2
+*PLB 1="NC" 2="COM" 3="NO" 4="MH1" 5="MH2"
+*MXP 5
+*DFN 5MS1S102AM6QES
+~!Mouser Part Number (118-5MS1S102AM6QES)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Dailywell/5MS1S102AM6QES?qs=B6kkDfuK7%2FBHVJoQEkyphg%3D%3D)
+~!Manufacturer_Name (Dailywell)
+~!Manufacturer_Part_Number (5MS1S102AM6QES)
+~!Link Datasheet (-)
+~!Height (6.6mm)
+"5MS1S102AM6QES"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

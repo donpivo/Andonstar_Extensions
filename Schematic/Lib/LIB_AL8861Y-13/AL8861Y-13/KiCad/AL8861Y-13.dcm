@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AL8861Y-13
+D LED Lighting Drivers LED MV Int Switch
+K
+F https://www.diodes.com/assets/Datasheets/AL8861.pdf
+$ENDCMP
+#
+#End Doc Library

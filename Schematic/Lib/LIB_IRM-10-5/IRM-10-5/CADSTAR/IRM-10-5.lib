@@ -1,0 +1,16 @@
+.IRM-10-5 :1 ;AC/DC Power Modules 5V 2A 10W 85-264Vin Encap PS
+IRM-10
+*STM PS
+*NGS
+*PLB 1="AC/L" 2="-V" 3="+V" 4="AC/N"
+*MXP 4
+*DFN IRM-10-5
+~!Mouser Part Number (709-IRM10-5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-10-5?qs=WkdRfq4wf1Mbq1AdfDJBoQ%3D%3D)
+~!Manufacturer_Name (Mean Well)
+~!Manufacturer_Part_Number (IRM-10-5)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/DKDS-14/277831.pdf)
+~!Height (-)
+~!3D_Model (IRM-10-5)
+IRM-10-5
+1.1!U 2.1!U 3.1!U 4.1!U 

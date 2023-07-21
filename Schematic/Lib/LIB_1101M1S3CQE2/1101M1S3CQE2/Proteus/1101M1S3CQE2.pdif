@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1101M1S3CQE2"
+   (description "C&K COMPONENTS - 1101M1S3CQE2 - Slide Switch, SPDT, On-On, Panel Mount, 1000 Series, 6 A, 250 V")
+   (family "SWI")
+   (package "1101M1S3CQE2")
+   (attribute "Datasheet Link" "https://www.ckswitches.com/media/1429/1000.pdf")
+   (attribute "Geometry.Height" "11.43mm")
+   (attribute "Mouser Part Number" "611-1101M1S3CQE2")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/1101M1S3CQE2?qs=lwH5WijZ8ehpWB98VN6Tsg%3D%3D")
+   (attribute "Manufacturer_Name" "C & K COMPONENTS")
+   (attribute "Manufacturer_Part_Number" "1101M1S3CQE2")
+   (gate
+    (symbol "1101M1S3CQE2")
+    (pin "NC" 1 NC)
+    (pin "COM" 2 PS)
+    (pin "NO" 3 PS)
+   )
+  )
+  (symbol "1101M1S3CQE2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1101M1S3CQE2"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 14.48)
+      (pt 3.3 14.48)
+      (pt 3.3 -5.08)
+      (pt -3.3 -5.08)
+      (pt -3.3 14.48))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.3 14.48)
+      (pt 3.3 14.48)
+      (pt 3.3 -5.08)
+      (pt -3.3 -5.08)
+      (pt -3.3 14.48))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.3 15.48)
+      (pt 4.3 15.48)
+      (pt 4.3 -6.08)
+      (pt -4.3 -6.08)
+      (pt -4.3 15.48))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.9 0)
+      (arc (pt -3.900 0.000) (pt -3.900 -0.050) (pt -3.800 0.050) (start 180.0) (sweep -180.0))
+      (pt -3.8 0)
+      (arc (pt -3.800 0.000) (pt -3.900 -0.050) (pt -3.800 0.050) (start 180.0) (sweep .0))
+      (pt -3.9 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 4.700) (padstack 0))
+   (leg 3 (pt 0.000 9.400) (padstack 0))
+   (padstack 0
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (round 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (round 2.775))
+   )
+   (padstack 1
+    (hole 1.85)
+    (plated true)
+    (pad (layer TCOP) (square 2.775))
+    (pad (layer INNER) (round 2.775))
+    (pad (layer BCOP) (square 2.775))
+   )
+   (model "1101M1S3CQE2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

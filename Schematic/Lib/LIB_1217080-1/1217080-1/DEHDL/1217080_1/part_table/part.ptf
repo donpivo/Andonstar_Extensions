@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1217080_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "1217080-1" (!) = "", "1217080-1", "Other", "571-12170801", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1217080-1?qs=yW2XQG1Ii9FDkxQ9q3B8LA%3D%3D", "Receptacle terminal, PCB, FASTON 205/250 TE Connectivity FASTON .205/.250 PCB Terminal, Female, Crimp, Tin Plating", "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1217080&DocType=Customer+Drawing&DocLang=English"
+END_PART
+
+END.

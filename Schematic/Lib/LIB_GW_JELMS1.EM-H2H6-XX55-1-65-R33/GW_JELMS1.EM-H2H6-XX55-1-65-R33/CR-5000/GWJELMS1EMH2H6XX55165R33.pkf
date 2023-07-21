@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "GWJELMS1EMH2H6XX55165R33"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "GWJELMS1EMH2H6XX55165R33")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRM_10_5'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Mean Well", "IRM-10-5" (!) = "", "IRM-10", "Other", "709-IRM10-5", "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-10-5?qs=WkdRfq4wf1Mbq1AdfDJBoQ%3D%3D", "AC/DC Power Modules 5V 2A 10W 85-264Vin Encap PS", "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-14/277831.pdf"
+END_PART
+
+END.
