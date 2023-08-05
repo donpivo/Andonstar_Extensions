@@ -1,0 +1,15 @@
+.1101M2S3AQE2 :1 ;PCB Slide Switch Single Pole Double Throw (SPDT) Latching 6 A @ 120 V ac, 6 A @ 28 V dc Slide
+"1101M2S3ABE2"
+*STM S
+*NGS
+*PLB 1="N.C." 2="COM" 3="N.O." 4="4" 5="5"
+*MXP 5
+*DFN 1101M2S3AQE2
+~!Mouser Part Number (611-1101M2S3AQE2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CK/1101M2S3AQE2?qs=XK7TQRbusgUqE8cJ4UzU5w%3D%3D)
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (1101M2S3AQE2)
+~!Link Datasheet (https://www.ckswitches.com/media/1429/1000.pdf)
+~!Height (6.6mm)
+"1101M2S3AQE2"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

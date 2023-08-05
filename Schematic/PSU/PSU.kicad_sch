@@ -785,6 +785,13 @@
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
   )
+  (netclass_flag "" (length 1) (shape round) (at 37.465 36.195 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 72f3691e-a283-42f7-9b3e-aa3eb6eceeda)
+    (property "Netclass" "Mains" (at 38.465 35.4965 90)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+  )
   (netclass_flag "" (length 1) (shape rectangle) (at 83.82 38.735 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 870f9d3f-b526-4cdf-9255-24000b216159)
@@ -817,7 +824,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 26.035 73.025 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3129cb68-16e2-421c-b78c-e1ebbcc5053c)
-    (property "Reference" "H3" (at 29.21 71.755 0)
+    (property "Reference" "H4" (at 29.21 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 29.21 74.295 0)
@@ -835,7 +842,7 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "H3") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -850,7 +857,7 @@
     (property "Value" "LED" (at 93.0275 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 91.44 33.655 0)
+    (property "Footprint" "myDevices:LED_Everlight_Side_1x2.1mm" (at 91.44 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 91.44 33.655 0)
@@ -870,13 +877,13 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 27.305 36.195 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x03") (at 27.305 36.195 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f02aa5e-f725-464c-94c4-d1737183146c)
-    (property "Reference" "J3" (at 22.225 34.29 0)
+    (property "Reference" "J2" (at 22.225 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Mains in" (at 21.59 36.83 0)
+    (property "Value" "Mains in" (at 21.59 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "myDevices:TerminalBlock_LCSC_P5.08mm_3" (at 27.305 36.195 0)
@@ -894,7 +901,7 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -903,7 +910,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 37.465 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e102220-1c86-40f0-bee1-3dec7a2e8512)
-    (property "Reference" "H5" (at 40.64 48.26 0)
+    (property "Reference" "H1" (at 40.64 48.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Chassis" (at 40.64 50.8 0)
@@ -922,7 +929,7 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "H5") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -931,7 +938,7 @@
   (symbol (lib_id "power:GND") (at 83.82 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e67b2b5-75f9-4f41-9bed-c51d3be0e02b)
-    (property "Reference" "#PWR03" (at 83.82 53.34 0)
+    (property "Reference" "#PWR02" (at 83.82 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 50.8 0)
@@ -947,7 +954,7 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -985,7 +992,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 26.035 62.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91789449-8d23-4539-88e3-4e267e3a2ec3)
-    (property "Reference" "H1" (at 29.21 61.595 0)
+    (property "Reference" "H2" (at 29.21 61.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 29.21 64.135 0)
@@ -1003,7 +1010,34 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "H1") (unit 1)
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 26.035 83.82 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 99ec730a-812f-497a-bf64-21535dac0e45)
+    (property "Reference" "H6" (at 29.21 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 29.21 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 26.035 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 26.035 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Comments" "" (at 26.035 83.82 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (instances
+      (project "PSU"
+        (path "/be906412-607c-4356-b276-4619dcf8dbfd"
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -1100,7 +1134,7 @@
     (property "Value" "SW_SPDT" (at 46.99 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "myDevices:1101M1S3CQE2" (at 46.99 26.035 0)
+    (property "Footprint" "myDevices:1101M2S3ABE2" (at 46.99 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.99 26.035 0)
@@ -1124,7 +1158,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 26.035 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0328d34-a0a9-4be7-8aee-f22efc73b658)
-    (property "Reference" "H2" (at 29.21 66.675 0)
+    (property "Reference" "H3" (at 29.21 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 29.21 69.215 0)
@@ -1142,7 +1176,7 @@
     (instances
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
-          (reference "H2") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1174,6 +1208,33 @@
       (project "PSU"
         (path "/be906412-607c-4356-b276-4619dcf8dbfd"
           (reference "PS1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 26.035 78.105 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid da886d88-b371-43c3-8fba-bfb0d0f2f374)
+    (property "Reference" "H5" (at 29.21 76.835 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 29.21 79.375 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 26.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 26.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Comments" "" (at 26.035 78.105 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (instances
+      (project "PSU"
+        (path "/be906412-607c-4356-b276-4619dcf8dbfd"
+          (reference "H5") (unit 1)
         )
       )
     )
