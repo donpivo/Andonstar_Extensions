@@ -441,10 +441,10 @@
       "GND": "Power",
       "Net-(D1-A)": "Power",
       "Net-(D2-A)": "Power",
-      "Net-(J2-Pin_1)": "Power",
-      "Net-(J2-Pin_2)": "Power",
-      "Net-(J4-Pin_1)": "Power",
-      "Net-(J4-Pin_2)": "Power"
+      "Net-(J1-Pin_1)": "Power",
+      "Net-(J1-Pin_2)": "Power",
+      "Net-(J3-Pin_1)": "Power",
+      "Net-(J3-Pin_2)": "Power"
     },
     "netclass_patterns": []
   },
@@ -454,7 +454,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LED_Dimmer.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
